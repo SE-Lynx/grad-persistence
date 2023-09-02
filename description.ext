@@ -1,0 +1,29 @@
+class CfgFunctions
+{
+	#include "modules\grad-persistence\cfgFunctions.hpp"
+};
+
+class CfgGradPersistence
+{
+	missionTag = "YourMissionTag";
+	loadOnMissionStart = 1;
+
+	// 0 = disabled
+	// 1 = enabled
+	savePlayerInventory = 1;
+	savePlayerDamage = 1;
+	savePlayerPosition = 1;
+
+	// 0 = disabled
+	// 1 = editor placed only
+	// 2 = all objects
+	// 3 = only objects created through Zeus or script
+	// saveUnits = 1;
+	// saveVehicles = 2;
+	// saveContainers = 3;
+	// saveStatics = 2;
+	// saveMarkers = 2; // Note, only markers in Global channel will be saved
+	// saveTasks = 0;  // Pretty much useless for our purposes
+	// saveTriggers = 0; // Pretty much useless for our purposes
+	// saveTimeAndDate = 1; // Save time when exiting. 0 = disabled, 1 = enabled
+};
